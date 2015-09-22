@@ -9,7 +9,7 @@ opkg update
 opkg install git-http
 ```
 ##Usage
-The generate_backups.ksh script backs up the list of installed packages and /etc directory using tar. The script runs out of root's crontab once a month.
+The generate_backups.ksh script backs up the list of installed packages and the /etc directory using tar. The script runs out of root's crontab once a month.
 
 `0 2 5 * * /scripts/openwrt-backup/generate_backups.sh`
 
