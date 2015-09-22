@@ -2,7 +2,7 @@
 Ash script to backup OpenWrt config files.
 
 ##Requirements
-Should work with any release of OpenWrt.
+Should work with any release of OpenWrt.  
 Tested on 15.05 Chaos Calmer.
 ```
 opkg update
