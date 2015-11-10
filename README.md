@@ -13,4 +13,5 @@ The generate_backups.ksh script backs up the list of installed packages and the 
 
 `0 2 5 * * /scripts/openwrt-backup/generate_backups.sh`
 
-You can use another script to pull the tar.gz file to your destination location.
+
+The *download_backups.ksh* script is run on your local machine and uses rsync over SSH to download the files from the server (assuming you have SSH keys setup).
