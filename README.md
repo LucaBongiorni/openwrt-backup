@@ -15,3 +15,6 @@ The generate_backups.ksh script backs up the list of installed packages and the 
 
 
 The *download_backups.ksh* script is run on your local machine and uses rsync over SSH to download the files from the server (assuming you have SSH keys setup).
+
+To re-download the packages, restore the packages.txt file and run it through a loop.
+`while read PACKAGES; do opkg install $PACKAGE; done`
